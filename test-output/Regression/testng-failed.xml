@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGConcepts.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGConcepts.Login -->
+      <class name="testNGConcepts.SurveyMonkeyLogin">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGConcepts.SurveyMonkeyLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

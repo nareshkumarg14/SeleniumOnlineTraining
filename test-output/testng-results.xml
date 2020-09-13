@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16214" started-at="2020-09-12T14:53:47Z" finished-at="2020-09-12T14:54:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16214" started-at="2020-09-12T14:53:47Z" finished-at="2020-09-12T14:54:04Z">
+      <class name="testNGConcepts.RealTimeCode">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNGConcepts.RealTimeCode@417213]" name="setup" is-config="true" duration-ms="9716" started-at="2020-09-12T14:53:47Z" finished-at="2020-09-12T14:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:testNGConcepts.RealTimeCode@417213]" name="loginTest" duration-ms="4905" started-at="2020-09-12T14:53:57Z" finished-at="2020-09-12T14:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGConcepts.RealTimeCode@417213]" name="tearDown" is-config="true" duration-ms="1554" started-at="2020-09-12T14:54:02Z" finished-at="2020-09-12T14:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGConcepts.RealTimeCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
